@@ -1,0 +1,35 @@
+<! DOCTYPE html>
+<html>
+    <head>
+        <meta lang="pt-BR">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <style>
+            table, td, tr{
+                border: 1px solid;
+            }
+            td{
+                width: 45px;
+                height: 45px;
+                text-align: center;
+            }
+        </style>
+        <form name="myForm">
+            <input type="text" name="myText" />
+            <select name="mySelect">
+                <option value="1">A</option>
+                <option value="2">B</option>
+                <option value="3">C</option>
+            </select>
+            <input type="checkbox" name="myCheck">
+        </form>
+        <br><br>
+        <button onclick="save()">Save</button>
+        <button onclick="load()">Load</button>
+        <!--<input type="text" id="textoSite" />-->
+        <!--<input type="button" id="btnIr" value="GO"  onclick="carregarPopUp()"/>-->
+
+    </body>
+    <script type="text/javascript" src="desafioSalvarEstadoFormulario.js"></script>
+</html>

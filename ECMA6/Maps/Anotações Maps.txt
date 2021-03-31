@@ -1,0 +1,5 @@
+Temos algumas características a se lembrar:
+
+Não podemos usar “[ ]” para acessar as propriedades. Para isso, use “get()” e “set()”
+Podemos limpar todo o conteúdo com a função “clear()”
+Para pegar o número de chaves, use “size” ao invés de “length”
